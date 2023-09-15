@@ -1,0 +1,201 @@
+.home-container {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/public/images/duytan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+.home-text-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-title {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.sub {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.home-link-nexticon {
+  margin-top: 0;
+  text-align: center;
+}
+
+img {
+  object-fit: contain;
+}
+
+.nexticon {
+  vertical-align: middle;
+  /* color: #0f71e3 ;*/
+  color: white;
+}
+.home-link {
+  display: inline;
+  vertical-align: middle;
+  padding-right: 4px;
+  /* color: #0f71e3 ;*/
+  color: white;
+}
+@media (max-width: 850px) {
+  .home-title {
+    font-size: 30px;
+  }
+  .sub {
+    font-size: 18px;
+  }
+}
+
+/*.home-container{
+   
+   width: 100%;
+   height: 700px;
+   position: relative;
+   
+}
+
+.home-heading{  
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(-50%);
+    width: 50%; 
+}
+.home-column{
+    float: left;
+    width: 50%;
+    margin: 0;
+    -ms-transform: translateY(50%); 
+   
+}
+.home-image {
+    height: 700px;
+}
+.home-container::after{
+display: block;
+clear: both;
+content: '';
+}
+.secondary-button button{
+    padding: 1rem 2.5rem;
+    background-color: #e42017;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    bottom: 0px;
+}
+.secondary-button a{
+    color: white;
+}
+
+@media (max-width: 750px) {
+   
+  
+
+
+}
+*/
+
+/*.title-info{
+  width: 40%;
+  float: right;
+}
+.home-image{
+  width: 56%;
+  height: 600px;
+}
+.title-float-right{  
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(50%);
+    transform: translateY(-50%);
+    width: 40%; 
+}
+@media (max-width:750px){
+.title-info{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.title-float-right{
+    width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-image{
+  width: 100%;
+  align-items: center;
+  justify-content: center;  
+}
+
+{/** 
+      * 
+      *  <div className='home-container'>
+
+          <div className='home-column'>
+            <img className ='home-image'src='images/Home-image.png'/>
+          </div>
+
+          <div className='home-column'>
+           <div className='home-heading'>
+              <h1>Vietnamese cuisine</h1>
+              <p>Upptäck vår meny och lunch erbjudande</p>
+                <div className='secondary-button'>
+                <button>
+                <Link to='/meny'>Meny</Link>
+                </button>
+                </div>
+            </div>
+          </div>
+        </div>   
+        <Lunch/>
+        <Favorite/>
+
+        ________________________________________________
+       
+
+           <div className='home-container'>
+   
+   <div className='image-title'>
+   <div className='title-info'>
+           <div className='title-float-right'>
+               <h1>Vietnamese cuisine</h1>
+               <p>bla bla</p>
+               <button>hello world</button>
+            
+               </div>      
+       </div>
+       <div >
+        <img className ='home-image'src='images/Home-image.png'/>
+       </div>
+       
+      
+   </div>
+  
+</div>
+     */

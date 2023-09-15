@@ -1,0 +1,118 @@
+ .contact-container{
+  margin-top: 0px;
+
+ }
+ .contact-form{
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+ .contact-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/public/images/chili.jpg');
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: cover;       
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ }
+ .contact-title{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  justify-content: center;
+  
+ }
+
+ .contact-info{
+  width: 40%;
+  float: right;
+
+ }
+ .map{
+  width: 56%;
+  height: 250px;
+  border-radius: 20px;
+  
+ }
+ .info-map{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .contact-icon svg {
+  display: inline; 
+  vertical-align: middle;  
+  }
+
+.contact-text {
+  display: inline; /* Make the text and icon display in a line */
+  vertical-align: middle; /* Vertically center the text with respect to the icon */
+  padding-left: 8px;
+
+}
+.contact-icon{
+  vertical-align: middle;
+  font-size: 24px
+}
+.contact-phone{
+  margin-bottom: 12px;
+}
+.open-time-text{
+  color: #222222;
+  margin-bottom: 6px;
+}
+.open-time-content{
+  margin-bottom: 12px;
+}
+
+
+
+  @media (max-width:850px) {
+    .contact-container{
+      margin-top: 0;
+    }
+    .map{
+      margin-top: 50px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+     
+    }
+   
+    .contact-info{
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+    }
+    .contact-icon{
+      font-size: 24px;
+    }
+    .contact-title{
+      font-size: 20px;
+    }
+    .contact-hero-image{
+      height: 300px;
+    }
+    
+    
+  }
+
+
+ 
+ 
+
+
+

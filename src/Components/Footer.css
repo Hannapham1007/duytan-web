@@ -1,0 +1,65 @@
+.footer-row{
+   
+    color: white;
+    padding: 30px 10%;
+}
+
+.footer-col{
+  float: left;
+  width: 33.33%;
+ 
+ 
+}
+.footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.footer-col, li a{
+    
+    color: white;
+    text-decoration: none;
+}
+li{
+    
+    list-style: none;
+    margin-bottom: 15px;
+}
+.top {
+    padding: 30px 10%;
+}
+.top a {
+    float: left;
+    text-align: center;
+    color: white;
+}
+.top a.split{
+    margin-left: 12px;
+    float: right;
+    color: white;
+}
+.footer-container{
+    background-color: #1c1c1c;
+   
+}
+a {
+    text-decoration: none;
+}
+.footer-icon{
+    vertical-align: middle;
+    font-size: 18px;
+    margin-right:8px ;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .footer-col {
+     width: 100%;
+     display: block;
+      
+    }
+  
+}
