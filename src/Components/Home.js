@@ -29,6 +29,7 @@ function Home() {
 
       <Favorite />
       <Lunch/>
+      
     </div>
   );
 }

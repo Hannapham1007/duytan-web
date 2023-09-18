@@ -26,7 +26,7 @@ function Lunch ()  {
   let lunchDay = LunchData[index];
 
   return (
-    <> 
+    <section id='lunch'> 
     <div className='lunch-container'>
       <div>
       <h2 className='lunch-title'>Dagens lunch</h2>
@@ -72,7 +72,7 @@ function Lunch ()  {
         
    
       
-    </>
+    </section>
   )
 }
 

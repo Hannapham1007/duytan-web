@@ -124,6 +124,7 @@ function Meny() {
     </li>
   ));
   return (
+    <div id="meny">
     <div className="menu-container">
       <h2 className="menu-title">Vår meny</h2>
       <div className="menu-item">
@@ -157,6 +158,7 @@ function Meny() {
         
       </div>
     </div>
+     </div>
   );
   /* return (
     <div className="menu-container">

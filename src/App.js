@@ -10,21 +10,16 @@ import Meny from "./Components/Meny";
 
 function App() {
   return (
-    <div className="app">
-      <Navbar />
-     
+    <div>
+      <Navbar/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-
-        <Route path="/meny" element={<Meny />} />
-        <Route path="/lunch" element={<Lunch />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes> 
-
-     
-
-      <Footer />
+        <Route path='/' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
+        <Route path='/meny' element={<Meny/>}/>
+        <Route path='/lunch' element={<Lunch/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+    </Routes>
+    <Footer/>
     </div>
   );
 }
