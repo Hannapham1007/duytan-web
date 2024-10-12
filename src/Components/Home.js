@@ -10,8 +10,7 @@ function Home() {
     <div>
       <div className="home-container">
         <div className="home-text-content">
-          <h1 className="home-title">Vietnamese cuisine</h1>
-          <p className="sub">Upptäck vår menyerbjudande</p>
+          <h2 className="home-title">Vietnamese cuisine</h2>
           <div className="home-link-nexticon">
             <Link className="home-link" style={{ fontSize: "20px" }} to="/meny">
               {" "}

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Contact.css";
 import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
-import ContactForm from "./ContactForm";
 
 function Contact() {
   return (
@@ -10,10 +9,6 @@ function Contact() {
         <div className="contact-hero-image">
           <h2 className="contact-title">Kontakta Oss</h2>
         </div>
-        <div className="contact-form">
-          <ContactForm />
-        </div>
-
         <div className="info-map">
           <div className="contact-info">
             <div className="contact-phone">
